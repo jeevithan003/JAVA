@@ -1,0 +1,19 @@
+// the swappinf beteen the two variables in java
+//simple temp varible.
+ import java.util.Scanner;
+import javax.swing.JOptionPane;
+class Main{
+    public static void main(String[] args) {
+String name=JOptionPane.showInputDialog("whats your name bro?");
+JOptionPane.showMessageDialog(null,"your name is  "+name);
+int age =Integer.parseInt(JOptionPane.showInputDialog("whts is your age bro?"));
+JOptionPane.showMessageDialog(null,"your age is "+ age);
+
+float score= Float.parseFloat(JOptionPane.showInputDialog("your gpa"));
+JOptionPane.showMessageDialog(null,"your gpa is "+score);
+
+
+    }
+
+
+}
